@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pro-redirect-deployment
+spec:
+# selector.matchLabels provided via Kustomize
+  template:
+    spec:
+      containers:
+        - name: pro-redirect
+          image: europeana/pro-redirect
+          ports:
+            - containerPort: 80
+          livenessProbe:
+            httpGet:
+              port: 80
+              path: /nginx-health
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              port: 80
+              path: /nginx-health
+            initialDelaySeconds: 10
+            periodSeconds: 10
