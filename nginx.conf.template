@@ -39,7 +39,7 @@ http {
             return 200 https://${OLD_PRO_IP_ADDRESS}$request_uri;
         }
 
-        if ($new_uri) {
+        if ($external_uri) {
             return 302 $new_uri;
         }
 
