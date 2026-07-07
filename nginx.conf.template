@@ -40,7 +40,7 @@ http {
         }
 
         if ($external_uri) {
-            return 302 $new_uri;
+            return 302 $external_uri;
         }
 
         # If there's no match we'll try to find the page in the wayback machine
