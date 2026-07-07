@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Substitute env var strings in NGINX config with values from env
+
+vars='$OLD_PRO_IP_ADDRESS'
+
+envsubst "${vars}" < /etc/nginx/nginx.conf.template > /etc/nginx/nginx.conf
+
+if [ -z "$1" ]; then
+      echo "No container params. Running default nginx command"
+      nginx
+else
+      exec "$@"
+fi
