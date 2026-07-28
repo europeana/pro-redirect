@@ -1,7 +1,3 @@
-## Test examples
-/apis.html https://europeana.atlassian.net/wiki/spaces/EF/pages/2385313793/Europeana+APIs+Documentation;
-~/documentation/3D/formats/.* https://europeana.atlassian.net/wiki/spaces/EF/pages/2365227031/Publishing+guide+for+3D+content#Which-3D-formats-does-Europeana-support?;
-
 ## External redirects
 ## ------------------
 /data/nodejs-europeana	https://europeana.atlassian.net/wiki/spaces/EF/pages/2385870932/Libraries+and+Plugins#Node.JS-Libraries;
