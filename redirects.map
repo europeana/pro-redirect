@@ -4,7 +4,7 @@
 /page/education https://www.europeana.eu/educators;
 /page/research https://www.europeana.eu/research;
 /discover-the-data/apis https://api.europeana.eu/;
-/discover-the-data/creating-editorial https://www.europeana.eu/how-to-write-for-europeana;
+# Also in live external redirects with same target /discover-the-data/creating-editorial https://www.europeana.eu/how-to-write-for-europeana;
 /page/creating-editorial https://www.europeana.eu/how-to-write-for-europeana;
 /page/apis https://api.europeana.eu/;
 /page/news https://www.dataspace-culturalheritage.eu/data-space?type=news;
@@ -195,7 +195,6 @@
 /page/issue-7-lodlam https://wayback.archive-it.org/12090/20250508024423/https://pro.europeana.eu/page/issue-7-lodlam;
 /page/issue-8-tpdl https://wayback.archive-it.org/12090/20250508024423/https://pro.europeana.eu/page/issue-8-tpdl;
 /page/issue-9-swib https://wayback.archive-it.org/12090/20250508021946/https://pro.europeana.eu/page/issue-9-swib;
-/page/metadata https://wayback.archive-it.org/12090/20241218201843/https://pro.europeana.eu/page/metadata;
 /page/enumerate  https://wayback.archive-it.org/12090/20260511092112/https://pro.europeana.eu/page/enumerate;
 /page/about-enumerate  https://wayback.archive-it.org/12090/20260511092127/https://pro.europeana.eu/page/about-enumerate;
 /page/surveys  https://wayback.archive-it.org/12090/20260511092137/https://pro.europeana.eu/page/surveys;
@@ -373,7 +372,7 @@
 /page/europeana-research-collaborations-university-of-warsaw-faculty-of-history https://wayback.archive-it.org/12090/20250507095944/https://pro.europeana.eu/page/europeana-research-collaborations-university-of-warsaw-faculty-of-history;
 /page/research-advisory-board https://wayback.archive-it.org/12090/20250507092531/https://pro.europeana.eu/page/research-advisory-board;
 /page/europeana-research-grants-programme-2021-call https://wayback.archive-it.org/12090/20250508002646/https://pro.europeana.eu/page/europeana-research-grants-programme-2021-call;
-/page/europeana-research-events-grants-programme-2019-call-for-submissions https://wayback.archive-it.org/12090/20241221193327/https://pro.europeana.eu/page/europeana-research-events-grants-programme-2019-call-for-submissions;
+# Duplicate +502 error from wayback machine /page/europeana-research-events-grants-programme-2019-call-for-submissions https://wayback.archive-it.org/12090/20241221193327/https://pro.europeana.eu/page/europeana-research-events-grants-programme-2019-call-for-submissions
 /page/grants-programme https://wayback.archive-it.org/12090/20250507103342/https://pro.europeana.eu/page/grants-programme;
 /page/research-community-video-series-odeuropa https://wayback.archive-it.org/12090/20250507102736/https://pro.europeana.eu/page/research-community-video-series-odeuropa;
 /page/research-community-video-series-in-search-of-the-drowned-testimonies-and-testimonial-fragments-of-the-holocaust https://wayback.archive-it.org/12090/20250507102324/https://pro.europeana.eu/page/research-community-video-series-in-search-of-the-drowned-testimonies-and-testimonial-fragments-of-the-holocaust;
@@ -957,8 +956,7 @@ pro-blog/-/blogs/europeana-and-european-parliament-join-forces-to-mark-events-th
 /services/discovery /page/collections;
 /services/discovery/collections /page/collections;
 /services/discovery/thematic-collections /page/collections;
-#/page/creating-editorial /page/creating-editorial;
-#/what-we-do/academic-research /page/academic-research;
+# is twice in live internal redirects, this one appears to be invalid /what-we-do/academic-research /page/academic-research;
 /what-we-do/creative-industries /about-us/services-and-tools;
 /what-we-do/cultural-heritage-institutions /;
 /what-we-do/education /page/education;
@@ -1030,7 +1028,7 @@ pro-blog/-/blogs/europeana-and-european-parliament-join-forces-to-mark-events-th
 /resources/apis/annotations /page/annotations;
 /resources/apis/oai-pmh-service /page/oai-pmh-service;
 /resources/apis/iiif /page/iiif;
-# /services/facilitating-innovation/take-the-challenge /about-us/activities;
+# Is twice in live internal redirects /services/facilitating-innovation/take-the-challenge /about-us/activities;
 /services/data-publication-services /share-your-data/process;
 /page/reasons-to-share-your-data-on-europeana-collections /share-your-data/process;
 /page/what-kind-of-content-is-europeana-looking-for /share-your-data/process;
@@ -1048,7 +1046,7 @@ pro-blog/-/blogs/europeana-and-european-parliament-join-forces-to-mark-events-th
 /page/europeana-in-your-classroom-building-21st-century-competences-with-digital-cultural-heritage-mooc /post/europeana-mooc-now-available-in-five-languages;
 /page/about-research /page/grants-programme;
 /network-association/special-interest-groups/research-community /page/europeana-research;
-#/page/europeana-research-events-grants-programme-2019-call-for-submissions /page/grants-programme;
+/page/europeana-research-events-grants-programme-2019-call-for-submissions /page/grants-programme;
 /page/research-grants-programme-submissions-2019 /page/grants-programme;
 /what-we-do/impact /page/impact;
 /page/impact-resources /page/impact;
