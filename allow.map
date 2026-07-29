@@ -1,4 +1,4 @@
-## Urls that we will allow (or revers proxy) for the time being
+## Urls that we will allow (or reverse proxy) for the time being
 ## Last updated 28 Jul 2026
 /about-us/office-employees 1;
 /page/office-employees 1;
@@ -46,3 +46,9 @@
 /page/the-de-bias-vocabulary 1;
 /page/the-de-bias-tool 1;
 /page/twin-it-3d-for-europe-s-culture 1;
+
+## Background requests done by the allowed pages
+## Last updated 28 Jul 2026
+~/theme/.* 1;
+~/thumbs/.* 1;
+~/files/.* 1;

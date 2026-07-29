@@ -1,3 +1,8 @@
+## Mapping with 3 types of redirects;
+## 1. Redirects we want for decommissioning Pro
+## 2. External redirects that are currently present in Bolt CMS (Pro)
+## 3. Internal redirects that are currently present in Bolt CMS (Pro)
+
 ## Redirects on decommissioning
 ## Last updated 28 Jul 2026
 ## -------------------------------------
